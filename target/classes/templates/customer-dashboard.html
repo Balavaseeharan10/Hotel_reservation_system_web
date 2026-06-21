@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Customer Dashboard</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="page-header customer-header">
+        <div>
+            <p class="tag">Customer Panel</p>
+            <h1>Customer Options</h1>
+            <p>Use these options for resident registration, room booking, and payment.</p>
+        </div>
+        <a class="secondary-btn" href="/">Back to Home</a>
+    </div>
+
+    <div class="menu-grid">
+        <a class="menu-card" href="/residents/ri/new"><span>📝</span><h3>Add RI Resident</h3><p>Register Indian resident details.</p></a>
+        <a class="menu-card" href="/residents/nri/new"><span>🌍</span><h3>Add NRI Resident</h3><p>Register NRI resident details.</p></a>
+        <a class="menu-card" href="/rooms/available"><span>🛏️</span><h3>Available Rooms</h3><p>Check free rooms before booking.</p></a>
+        <a class="menu-card" href="/bookings/new"><span>📅</span><h3>Book Room</h3><p>Create a new room booking.</p></a>
+        <a class="menu-card" href="/payments/new"><span>💳</span><h3>Add Payment</h3><p>Enter payment details for booking.</p></a>
+        <a class="menu-card" href="/bookings"><span>📋</span><h3>View Bookings</h3><p>Check booking records.</p></a>
+    </div>
+</div>
+</body>
+</html>
